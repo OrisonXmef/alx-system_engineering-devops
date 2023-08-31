@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "*.html" -newermt $(date -r ../ +%Y%m%d%H%M.%S) -exec cp -n {} ../ \;
+find . -name "*.html" -newermt $(date -r ../ +%Y%m%d%H%M.%S) -exec cp -n {} ../ \; > /dev/null 2>&1
