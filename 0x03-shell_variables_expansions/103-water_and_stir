@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "ibase=water, obase=bestchol, \$((16#${WATER})) + \$((16#${STIR}))" | bc
+python -c "print(int('$WATER', 36) + int('$STIR', 36))"
