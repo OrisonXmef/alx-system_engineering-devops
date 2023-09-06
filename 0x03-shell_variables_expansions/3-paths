@@ -1,2 +1,2 @@
 #!/bin/bash
-IFS=: read -ra p <<< "$PATH" echo ${#p[@]}
+echo "$PATH" | tr ':' '\n' | wc -l 
