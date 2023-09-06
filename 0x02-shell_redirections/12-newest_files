@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1t | head -10
+echo "o"{i,j,k,l,m,n,p,q,r,s}
